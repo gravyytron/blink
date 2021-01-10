@@ -6,7 +6,7 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "project"
+                XCODE_WORKSPACE: "Blink.xcodeproj/project"
                 XCODE_SCHEME: "Blink"
             xcode: latest
             cocoapods: default
